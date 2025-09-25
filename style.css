@@ -190,10 +190,31 @@ footer h2 {
     text-decoration: none;
     transition: 0.3s;
 }
-.team-row a{
+
+.team-row a {
     margin: 10px;
 }
 
 .team-row a:hover {
     color: #fff;
+}
+
+.our-partner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    grid-column: 1 / -1;
+    justify-content: center;
+}
+.our-partner h2{
+    
+    color: #fff;
+    margin-right: 90%;
+    font-size: 1.3rem;
+}
+
+.our-partner img {
+    height: auto;
+    width: 50px;
 }
